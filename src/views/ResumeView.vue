@@ -7,27 +7,26 @@ const nerdMonkeys = 'https://store.steampowered.com/search/?developer=Nerd%20Mon
 <template>
   <div>
     <h1>...\Experience\</h1>
-    <div class="paragraph">
-      An object-oriented gameplay programmer with experience in developing PC and cross-platform prototypes, as well as
-      porting games to the Nintendo Switch
-      <br /><br />
-      Honed my skills in team management, production, and leadership by leading a team responsible for developing and
-      porting Nintendo Switch titles
-      <br /><br />
-      Also experienced with VR and modding, adept at integrating into ongoing projects
-      <br /><br />Currently navigating the challenges of adulthood
-      <br />
-      <div style="margin-top: 20px; margin-bottom: 20px">
-        <a class="download-link" href="d/IuriMartinhoResume.pdf" target="_blank"
-          ><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF</a
-        >
-        <div style="clear: both"></div>
+    <div class="intro">
+      <div class="paragraph">
+        An object-oriented gameplay programmer with experience in developing PC and cross-platform prototypes, as well as
+        porting games to the Nintendo Switch
+        <br /><br />
+        Honed my skills in team management, production, and leadership by leading a team responsible for developing and
+        porting Nintendo Switch titles
+        <br /><br />
+        Also experienced with VR and modding, adept at integrating into ongoing projects
+        <br /><br />Currently navigating the challenges of adulthood
+        <br />
+        <div style="margin-top: 20px; margin-bottom: 20px">
+          <a class="download-link" href="d/IuriMartinhoResume.pdf" target="_blank"
+            ><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF</a
+          >
+          <div style="clear: both"></div>
+        </div>
       </div>
+      <div class="photo"><img src="img/avatar2.png" alt="Photo of Iuri Martinho" /></div>
     </div>
-    <div style="margin-left: 700px; margin-top: 0px">
-      <div class="photo"><img src="img/avatar2.png" alt="Photo" /></div>
-    </div>
-    <div style="clear: both"></div>
 
     <div class="full-content">
       <h2>Work experience</h2>
@@ -172,7 +171,15 @@ h4 {
   padding-top: 15px;
   font-style: italic;
 }
+/* Intro text and photo: side by side when there is room, stacked otherwise. */
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  column-gap: 40px;
+}
 .paragraph {
+  flex: 1 1 360px;
   max-width: 700px;
 }
 .download-link {
@@ -185,27 +192,26 @@ h4 {
 .skill-set h3 {
   padding-bottom: 10px;
 }
+.photo {
+  flex: 0 1 300px;
+  margin: 30px auto 0;
+  text-align: center;
+}
 .photo img {
-  height: 300px;
-  width: 300px;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  aspect-ratio: 1;
 }
 .tech-stack {
   font-style: italic;
   font-size: 0.8em;
 }
-.photo {
-  margin-top: 50px;
-  text-align: center;
-}
 
 @media only screen and (min-width: 620px) {
-  .paragraph {
-    float: left;
-  }
   .photo {
-    float: left;
-    padding: 30px;
-    padding-left: 80px;
+    margin: 30px 0 0;
   }
   .skill-set {
     float: left;

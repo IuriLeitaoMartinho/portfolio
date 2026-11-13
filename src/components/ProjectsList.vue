@@ -15,7 +15,6 @@ function showDetails(item: ProjectData) {
   popupColor.value = item.accentColor
   popupContent.value = item.htmlDescription
   showPopup.value = true
-  window.scrollTo(0, 0)
 }
 </script>
 

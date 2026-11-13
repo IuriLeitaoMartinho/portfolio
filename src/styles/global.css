@@ -64,7 +64,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.1em;
   line-height: 1.6em;
-  text-align: justify;
+  text-align: left;
 }
 
 h1,
@@ -100,7 +100,6 @@ h1 {
 
 @media only screen and (min-width: 620px) {
   #app {
-    text-align: left;
     line-height: 1.8em;
   }
   h1 {

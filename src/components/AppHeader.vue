@@ -32,14 +32,17 @@ a {
   border-bottom-width: 2px;
 }
 
+/* Phones: centered, smaller links so the five fit on two rows. */
 @media only screen and (max-width: 620px) {
   .nav-bar {
-    line-height: 2em;
+    text-align: center;
+    padding: 12px 8px 4px;
+    line-height: 1.6em;
+    font-size: 0.85em;
   }
   a {
-    margin-left: 9px;
-    margin-right: 9px;
-    padding-bottom: 0;
+    margin: 0 6px;
+    padding: 6px 0;
   }
 }
 </style>
