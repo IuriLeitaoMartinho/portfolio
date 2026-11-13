@@ -10,7 +10,7 @@ Setup, commands and how to add a project are in [README.md](README.md).
 - **Base path is `/portfolio/`** (`vite.config.ts`). Assets in `public/` are referenced as plain relative paths (`img/projects/x.png`), never with a leading slash.
 - **`transformAssetUrls: false`** in `vite.config.ts` is deliberate: without it Vite turns `src="img/…"` into imports and the build fails.
 - **The `.dialog-content …` rules in `src/styles/global.css` must stay global.** They style the `v-html` project descriptions, which never carry a scoped `data-v` attribute.
-- **File names are case-sensitive on GitHub Pages.** Windows and `vite preview` hide wrong-case paths, so a broken image only shows on the live site.
+- **File names are case-sensitive on GitHub Pages.** Windows and `vite preview` hide wrong-case paths. `scripts/check-assets.mjs` runs first in `npm run build` and fails on any `img/…` or `d/…` path that doesn't match a file in `public/` exactly. Keep it in the build.
 - **Project ids are unique across all three data files** (they are `v-for` keys).
 - **Never commit `dist/`.** Pages is fed by the workflow artifact.
 - The original Vue 2 source is in `IuriLeitaoMartinho/gamedev-portfolio` (last commit 2024-08-29, older than this port). Use it as a reference only.

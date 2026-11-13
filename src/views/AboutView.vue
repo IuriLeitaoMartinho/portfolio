@@ -8,7 +8,7 @@ import projects from '@/data/AboutProjectsData'
     <h1>...\Intro\</h1>
     <div class="paragraph">
       <div>
-        I'm <strong>Iuri Martinho</strong>, a 27 years old programmer who specializes in object-oriented programming (OOP) and games in general.<br />
+        I'm <strong>Iuri Martinho</strong>, a programmer who specializes in object-oriented programming (OOP) and games in general.<br />
         I spend my weekends coming up with new game ideas and feeling like I should be doing more.
       </div>
       <div style="margin-top: 20px">

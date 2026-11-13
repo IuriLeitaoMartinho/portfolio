@@ -2,7 +2,7 @@
   <div>
     <h1>...\Contacts\</h1>
     <ul>
-      <li><i class="fa fa-envelope-o fa-lg fa-fw"></i><a target="_blank">leitaomartinho@gmail.com</a></li>
+      <li><i class="fa fa-envelope-o fa-lg fa-fw"></i><a href="mailto:leitao.martinho@gmail.com">leitao.martinho@gmail.com</a></li>
       <li>
         <i class="fa fa-linkedin fa-lg fa-fw" style="vertical-align: -5%"></i
         ><a href="https://www.linkedin.com/in/iurimartinho/" target="_blank">LinkedIn</a>

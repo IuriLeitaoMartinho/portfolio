@@ -1,6 +1,5 @@
 import ProjectData from '@/data/ProjectData'
 
-
 export default [
     new ProjectData("project-1", "Short Games Collection 1", "img/projects/SGC-1-icon.gif",
         `
@@ -9,7 +8,7 @@ export default [
      <strong>Short Games Collection</strong> is a project I take great pride in. 
      <br/> I served as the lead programmer and assistant producer for the inaugural release—a compilation of games ported to the Nintendo Switch, developed by creators from around the world. The collection is presented within a 3D environment hub.
      <br/>
-     <br/>Developed at <a href="https://twitter.com/Nerd_Monkeys" target="_blank">Nerd Monkeys</a>. is available on the Nintendo Switch and features a curated selection of five unique short video game experiences, all wrapped in an immersive dynamic menu.
+     <br/>Developed at <a href="https://twitter.com/Nerd_Monkeys" target="_blank">Nerd Monkeys</a>, it is available on the Nintendo Switch and features a curated selection of five unique short video game experiences, all wrapped in an immersive dynamic menu.
     </div>
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/qfJY5a9Vzz8?si=YMuos5f0Kg3tmaAS" frameborder="0" allowfullscreen></iframe>
@@ -17,8 +16,6 @@ export default [
 
     <div class="paragraph center">
         <a href="https://www.nintendo.com/pt-br/store/products/sgc-short-games-collection-1-switch" target="_blank"><img src="img/projects/nintendoShop.png" alt="Nintendo badge" /></a>
-    </div>
-
     </div>
 
     <div class="paragraph center">
@@ -34,7 +31,7 @@ export default [
         <figcaption>The interactive hub  made by our 3D artist <a href="https://www.instagram.com/branquinhoart/" target="_blank">Joana Branquinho</a></figcaption>
         <figcaption>-</figcaption>
         <img class="phone-screenshot" src="img/projects/AGALDYTImage.png" alt="Screenshot" />
-        <figcaption><strong>A Game About Litreally Doing Your Taxes</strong> made by <a href="https://notasailorstudios.com/" target="_blank">Not a Sailor Studios</a></figcaption>
+        <figcaption><strong>A Game About Literally Doing Your Taxes</strong> made by <a href="https://notasailorstudios.com/" target="_blank">Not a Sailor Studios</a></figcaption>
         <figcaption>-</figcaption>
         <img class="phone-screenshot" src="img/projects/GhosteinImage.png" alt="Screenshot" />
         <figcaption><strong>Ghostein</strong> made by <a href="https://www.parampara.studio/" target="_blank">Parampara</a></figcaption>
@@ -46,7 +43,7 @@ export default [
         <figcaption><strong>Swallow The Sea</strong> made by <a href="https://itsthetalia.itch.io/" target="_blank">ItsTheTalia, Talia bob Mair, Maceo bob Mair and Nicolás Delgado</a></figcaption>
         <figcaption>-</figcaption>
         <img class="phone-screenshot" src="img/projects/TGTGImage.png" alt="Screenshot" />
-        <figcaption><strong>The Good Time Garden made</strong> by <a href="https://coalsupper.com/" target="_blank">Coal Supper</a></figcaption>
+        <figcaption><strong>The Good Time Garden</strong> made by <a href="https://coalsupper.com/" target="_blank">Coal Supper</a></figcaption>
         <figcaption>-</figcaption>
     </figure>
     </div>

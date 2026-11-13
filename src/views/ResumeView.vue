@@ -32,11 +32,11 @@ const nerdMonkeys = 'https://store.steampowered.com/search/?developer=Nerd%20Mon
       <h2>Work experience</h2>
 
       <h3>- Lead Programmer @ <a href="https://www.semaeopus.com/" target="_blank">Semaeopus</a></h3>
-      <h4>Jun 2023 - Present</h4>
+      <h4>Jun 2023 - Sep 2025</h4>
       <div style="padding-left: 20px">
         <br />
-        Managing my team's tasks while enhancing and integrating existing projects, developing and porting WebGL
-        applications. Exploring blockchain technology and open-source game servers.
+        Managed my team's tasks while enhancing and integrating existing projects, developing and porting WebGL
+        applications. Explored blockchain technology and open-source game servers.
         <br /><br />
       </div>
       <div class="tech-stack">Unity, C#, on-chain, WebGL, Go (Golang), ubuntu/linux</div>
@@ -50,7 +50,7 @@ const nerdMonkeys = 'https://store.steampowered.com/search/?developer=Nerd%20Mon
         <br /><br />
       </div>
       <div class="tech-stack">
-        Unity, Game Maker Studio, Unreal, C#, JavaScript, C++, Agile methodoligies, JIRA, Source control
+        Unity, Game Maker Studio, Unreal, C#, JavaScript, C++, Agile methodologies, JIRA, Source control
       </div>
 
       <h3>- Gameplay Programmer @ <a href="https://www.redcatpig.com/" target="_blank">Red Cat Pig</a></h3>
@@ -142,7 +142,7 @@ const nerdMonkeys = 'https://store.steampowered.com/search/?developer=Nerd%20Mon
       </div>
 
       <h2>Languages</h2>
-      <h4>Native Portugues and fluent English</h4>
+      <h4>Native Portuguese and fluent English</h4>
       <h2>❤️</h2>
     </div>
   </div>

@@ -23,7 +23,8 @@ Open http://localhost:5173/portfolio/ — the `/portfolio/` part matters, it mat
 | Command | What it does |
 | --- | --- |
 | `npm run dev` | Dev server with hot reload |
-| `npm run build` | Type-check (`vue-tsc`) and build into `dist/` |
+| `npm run build` | Check image paths, type-check (`vue-tsc`) and build into `dist/` |
+| `npm run check:assets` | Fail if any `img/…` or `d/…` path doesn't match a file in `public/` exactly (letter case included) |
 | `npm run preview` | Serve the built `dist/` at http://localhost:4173/portfolio/ |
 | `npm run typecheck` | Type-check only |
 
@@ -58,7 +59,7 @@ new ProjectData(
 ```
 
 - Put images in `public/img/projects/` and reference them as `img/projects/<file>` (no leading slash).
-- File names are **case-sensitive** on GitHub Pages: `BeaconPines3.png` and `beaconpines3.png` are different files. Windows hides this locally, so check new images on the live site after deploying.
+- File names are **case-sensitive** on GitHub Pages: `BeaconPines3.png` and `beaconpines3.png` are different files. Windows hides this locally; `npm run build` (and so the deploy) fails with `check-assets` if a path's case is wrong.
 - Dialog body classes available: `paragraph`, `center`, `youtube` (on an `iframe`), `phone-screenshot`, `pc-screenshot`, `notice`.
 - Close every tag you open in the dialog HTML.
 
